@@ -1,0 +1,19 @@
+.photo-frame-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    line-height: 0;
+    text-align: center;
+    box-shadow: 0px 0px 4px 2px #dbdbdb;
+    
+    .like-bar {
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 0 8px 0 8px;
+        background: rgba($color: black, $alpha: 0.6);
+    }
+}
